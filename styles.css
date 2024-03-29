@@ -1,14 +1,74 @@
-h1{
-    color: red;
-    
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('BG.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
-div {
-    width:33%;
-    float:left;
+.header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for better contrast */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
-.Admin{
-    cursor:pointer;
-    color: blue;
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.33); /* Semi-transparent white background for better readability */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for better contrast */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

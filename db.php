@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database = "course_reg";
+$password = "@1784323Ansh";
+$database = "lab_prj";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -13,4 +13,3 @@ if ($conn->connect_error) {
 }
 
 ?>
-

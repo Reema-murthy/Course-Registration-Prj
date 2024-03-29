@@ -1,0 +1,95 @@
+/* Custom CSS styles */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark gray navbar background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text color for navbar links */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Light gray text color on hover */
+}
+
+/* Container styles */
+.container {
+    margin-top: 20px; /* Add margin space at the top */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffffff; /* White background color */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for a 3D effect */
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px; /* Add margin space below the form */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Light gray border bottom */
+}
+
+th {
+    background-color: #f8f9fa; /* Light gray background color for table headers */
+}
+
+/* Update form styles */
+#updateForm {
+    display: none; /* Hide the update form initially */
+    margin-top: 20px; /* Add margin space at the top */
+    padding: 20px; /* Add padding inside the form */
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for a 3D effect */
+}
+
+/* Update form input styles */
+#updateForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Update form button styles */
+#updateForm button {
+    background-color: #007bff; /* Blue button background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#updateForm button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Scrollable div styles */
+.scrollable {
+    max-height: 400px; /* Set max height for a scrollable div */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px; /* Add padding inside the div */
+}
